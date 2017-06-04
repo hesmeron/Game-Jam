@@ -31,6 +31,7 @@ public class PlayerMovment : MonoBehaviour {
             if (transformX != 0 || transformY != 0)
             {
                 player.GetComponent<Animator>().SetFloat("speed", 2);
+                player.GetComponent<Animator>().SetFloat("Coa", 0);
             }
 
             if (transformX == 0 && transformY == 0)
